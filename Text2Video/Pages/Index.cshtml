@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Convert text to video";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Convert Text to Speech</p>
+</div>
+<form method="post">
+    <div>
+        <textarea name="UserInput" id="textAreaText" class="display-4">@Model.UserInput</textarea>
+    <br />
+        <button type="submit" id="convertText2VideoButton">Convert text 2 video</button>
+    </div>
+</form>
