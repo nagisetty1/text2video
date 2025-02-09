@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Text2Video/.vs/Text2Video
+/Text2Video/bin/Debug/net8.0
+/Text2Video/obj/Debug/net8.0
+/Text2Video/obj
